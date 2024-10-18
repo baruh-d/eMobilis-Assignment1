@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Allows stacking of div and section */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space between the div and the section */
+}
+
+section {
+    text-align: center; /* Center the text in the section */
+    background-color: white; /* White background for contrast */
+    padding: 20px; /* Padding inside the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333; /* Match color for consistency */
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+button.hp {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.hp:hover {
+    background-color: #45a049; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
